@@ -1,0 +1,99 @@
+body{
+  color:#ADD8E6;
+  font-family:verdana;
+  margin:0;
+}
+div#EE{
+/*   div que cria o espaço na esquerda */
+  width:10%;
+  background-color:#1C1C1C;
+  position:fixed;
+  height:100vh;
+}
+div#ED{
+/*   div que cria o espaço na direita */
+  width:10%;
+  background-color:#1C1C1C;
+  position:fixed;
+  right:0;
+  height:100vh;
+}
+div#M{
+/*   div em que o conteúdo é inserido */
+  width:80%;
+  background-color:	#1C1C1C;
+  position:absolute;
+  left:10%;
+  min-height:100vh;
+}
+h1{
+  color:#4864FF;
+  text-align:center;
+  font-size:50px;
+  transition: 0.5s;
+}
+h1:hover{
+  color:white;
+  font-size:52px;
+}
+h2{
+  color:#4864FF;
+}
+p#p{
+  font-size: 90%;
+  text-align:justify;
+}
+div#txtbranco{
+/*  deixar o texto de endereço branco  */
+  color:white;
+}
+p#pl{
+  font-size: 90%;
+}
+p#pl:hover{
+/*  p na aba social  */
+  color:white;
+  text-decoration:underline;
+  font-weight:bold;
+}
+p#p2{
+/*   reduzir distância entre p e pg em projetos */
+  font-size:90%;
+  margin-top:-15px;
+  text-align:justify;
+}
+p#g{
+/*  subtítulos das abas  */
+  font-size:110%;
+}
+p#pp{
+  font-size:70%;
+  color:white;
+  margin-top:-12px;
+  margin-bottom:-10px;
+}
+a{
+  text-decoration:none;
+  color:#ADD8E6;
+}
+table#t1{
+/*   tabela de cima  */
+  margin:auto;
+  height:250px;
+}
+td#tdUp{
+/*   colunas da tabela de cima */
+  padding-left:20px;
+  padding-right:20px;
+}
+table#t2{
+/*   tabela de baixo  */
+  margin:auto;
+  padding-bottom:100px;
+}
+td#tdDown{
+/*   colunas da tabela de baixo */
+  padding-left:40px;
+  padding-right:40px;
+  vertical-align:top;
+}
